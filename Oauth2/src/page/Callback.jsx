@@ -14,7 +14,7 @@ const Callback = () => {
     try {
       // Gọi về Backend của bạn
       console.log("Đang gọi API backend...");
-      const res = await axios.post("http://localhost:8080/api/v1/auth/social-login", {
+      const res = await axios.post("http://localhost:8080/api/v1/auth/facebook-login", {
         code: authCode,
       });
 
